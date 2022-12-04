@@ -1,0 +1,53 @@
+﻿@model IEnumerable<LibraryManagement.Models.BookBorrower>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table" style="background-color:#33475b;color:white">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BooksIssued)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BooksIssued)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CardNo">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CardNo">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CardNo">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
