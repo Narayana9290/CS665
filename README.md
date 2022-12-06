@@ -1,5 +1,21 @@
 # CS655 Project
 # Title
-Library Management
+Library Management System
 # Contributors
-Narayana Vunnam
+Narayana Vunnam - Y924Z338
+Vishnu Sirivella - D564N363
+Teja Kiran Valeti - M864A728
+Daveed Raju Dinesh Yalavarthi - R436W592
+# Description
+I Narayana Vunnam created a database LibraryManagement. Created required tables and inserted the data
+Vishnu sirivella has worked upon html and css
+Teja Kiran Valeti has created controllers and models in c#
+Daveed Raju Dinesh Yalavarthi has worked upon crud operations and database connections
+# Group name 47
+# Github Ids
+Narayana Vunnam - Narayana9290
+Vishnu Sirivella - Vishnu299
+Teja Kiran Valeti - tejavaleti
+Daveed Raju Dinesh Yalavarthi - dineshyalavarthi
+# Yotube link
+https://youtu.be/7jiMwLZA3-I
